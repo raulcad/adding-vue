@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web with VueJS</title>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>My web with VueJS</h1>
+        <h2>{{ message }}</h2>
+        <button @click="changeMessage">Change message</button>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        const myApp = app.mount('#app');
+    </script>
+</body>
+</html>
